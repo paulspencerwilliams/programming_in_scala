@@ -1,4 +1,3 @@
-package org.stairwaybook.layout
 object Element {
 
   def elem(contents: Array[String]): Element = new ArrayElement(contents)
