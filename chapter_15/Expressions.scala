@@ -1,5 +1,4 @@
 import Element.elem
-import Element.elem
 
 sealed abstract class Expr
 case class Var(name: String) extends Expr
